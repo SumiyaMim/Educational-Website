@@ -1,0 +1,37 @@
+.blog img{
+    width: 100%;
+    height: 100%;
+}
+.blog .text{
+    padding: 40px 30px;
+}
+.blog h1{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+.blog h1:hover{
+    color: #27a8b1;
+    cursor: pointer;
+}
+.blog span{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #27a8b1;
+    font-size: 12px;
+}
+.blog span:nth-last-child(2) i, .blog span:nth-last-child(1) i{
+    margin-left: 8px;
+}
+.blog span label{
+    margin-left: 5px;
+    color: grey;
+    font-size: 11.6px;
+}
+.blog p{
+    color: grey;
+    font-size: 13.5px;
+    line-height: 20px;
+}

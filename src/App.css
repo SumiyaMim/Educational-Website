@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+}
+/*global*/
+.container{
+  max-width: 85%;
+  margin: auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #27a8b1;
+  transition: 0.5s;
+}
+.icon:hover{
+  cursor: pointer;
+  background-color: #27a8b1;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+.row{
+  width: 45%;
+}
+button{
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #27a8b1;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+}
+button i{
+  margin-left: 20px;
+}
+button:hover{
+  box-shadow: none;
+}
+.primary_btn {
+  background-color: #27a8b1;
+  color: #fff;
+}
+/*global*/
+
+#heading{
+  text-align: center;
+  padding: 40px 0;
+}
+#heading h3{
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #27a8b1;
+  text-transform: uppercase;
+}
+#heading h1{
+  font-size: 35px;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+p{
+  line-height: 30px;
+  font-size: 18px;
+}
+.back_about{
+  background-image: url("../public/images/back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+.back_about h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+.back_about h2{
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.back_course{
+  background-image: url("../public/images/courses.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+.back_course h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+.back_course h2{
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.back_team{
+  background-image: url("../public/images/team.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+.back_team h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+.back_team h2{
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.back_price{
+  background-image: url("../public/images/price.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+.back_price h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+.back_price h2{
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.back_blog{
+  background-image: url("../public/images/blog.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+.back_blog h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+.back_blog h2{
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.back_contact{
+  background-image: url("../public/images/contact.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+.back_contact h1{
+  font-size: 100px;
+  font-weight: 400;
+}
+.back_contact h2{
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.margin{
+  margin-top: 40.3%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.flex1{
+  display: flex;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.outline_btn{
+  margin: 0;
+  box-shadow: none;
+  border: 2px solid #27a8b1;
+  width: 100%;
+  transition: 0.5s;
+}
+.outline_btn:hover{
+  background-color: #27a8b1;
+  color: #fff;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+.padding{
+  padding: 80px 0;
+}
+.shadow{
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .grid, .grid2, .grid3{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .back_about, .back_course, .back_team, .back_price, .back_blog, .back_contact{
+    background-position: center;
+    padding-top: 50%;
+    height: 80vh;
+  }
+}

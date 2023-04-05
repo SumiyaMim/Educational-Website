@@ -1,0 +1,71 @@
+.contacts iframe{
+  width: 110%;
+  height: 100%;
+  border: none;
+}
+.contacts .right{
+  padding: 50px;
+  margin-right: 5%;
+}
+.contacts h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+.contacts p{
+  color: grey;
+}
+.contacts .items{
+  margin: 30px 0;
+  line-height: 10px;
+}
+.contacts .box h4{
+  font-size: 14.2px;
+}
+.contacts .box p{
+  font-size: 14px;
+  margin-top: 8px;
+  line-height: 18px;
+}
+.contacts .flex{
+  width: 110%;
+}
+.contacts textarea, .contacts input{
+  width: 110%;
+  padding: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  border: 1px solid grey;
+  resize: none;
+}
+form .flex input:nth-child(1){
+  margin-right: 10px;
+}
+.contacts h3{
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contacts span{
+  color: #27a8b1;
+  font-weight: 600;
+  font-size: 15px;
+  word-spacing: 5px;
+}
+@media screen and (max-width: 768px){
+  .contacts .container{
+    flex-direction: column;
+  }
+  .contacts iframe{
+    height: 50vh;
+    width: 100%;
+  }
+  .contacts .row{
+    width: 100%;
+  }
+  .contacts textarea, .contacts input{
+    width: 100%;
+  }
+  .contacts .flex{
+    width: 100%;
+  }
+}
